@@ -1,0 +1,7 @@
+Option Explicit
+
+Dim fso, scriptName
+Set fso = CreateObject("Scripting.FileSystemObject")
+scriptName = fso.GetFileName(WScript.ScriptFullName)
+
+MsgBox scriptName & " 70?CI5=", vbInformation, scriptName
